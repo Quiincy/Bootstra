@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/theme.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header class="header container-fluid border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light flex-md-row align-items-center">
+                <a class="navbar-brand col-4 col-sm-4 col-md-4" href="#"><img src="./assets/images/instagramm.svg" alt="logo.instagramm"></a>
+                <form class="form-inline col-4 col-sm-4 col-md-5">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaricons" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbaricons">
+                  <ul class="navbar-nav justify-content-end align-items-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="./assets/images/home.svg" alt="home"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="./assets/images/messages.svg" alt="messages"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="./assets/images/place.svg" alt="plsce"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#"><img src="./assets/images/likes.svg" alt="likes"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#"><img src="./assets/images/my_acc.svg" alt="my_acc"></a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section class="profile container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 offset-md-1">
+            <img class="profile_photo" src="./assets/images\/prifile photo.svg" alt="profile photo">
+          </div>
+          <div class="col-sm-7">
+            <div class="profile_action d-flex align-items-center">
+              <h1 class="user_name">Name</h1>
+              <button type="button" class="btn btn-primary">Follow</button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <div class="dots_wrapper">
+                <span class="dots_item"></span>
+              </div>
+            </div>
+            <div class="stat d-flex ">
+              <p class="stat_item">
+                  <span class="font-weight-bold">79</span> posts
+               </p>
+               <p class="stat_item">
+                   <span class="font-weight-bold">379</span> followers
+                </p>
+                <p class="stat_item">
+                   <span class="font-weight-bold">179</span> following
+                </p>
+            </div>
+            <div class="profile_description">
+              <h5>Name</h5>
+              <p class="profile_text" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+              <a class="profile_link" href="">bit.ly/35Ce3mX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stories container-fluid ">
+        <div class="container border-bottom">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="stories_list">
+                <div class="story_item text-center">
+                  <div class="story_border">
+                      <div class="story_photo"></div>
+                  </div>
+                  <h6 class="story_name">Name</h6>
+                </div>
+                  <div class="story_item text-center">
+                    <div class="story_border">
+                        <div class="story_photo"></div>
+                    </div>
+                    <h6 class="story_name">Name</h6>
+                  </div>
+                  <div class="story_item text-center">
+                    <div class="story_border">
+                        <div class="story_photo"></div>
+                    </div>
+                    <h6 class="story_name">Name</h6>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container-fluid wall_items">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                  <a class="nav-link active text-uppercase" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" > 
+                      <span class="post"></span>Posts</a>
+              </li>
+              <li class="nav-item" >
+                  <a class="nav-link text-uppercase" href="#profile" id="profile-tab" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false">
+                      <span class="tagged"></span>Tagged</a>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content container-fluid">
+
+        <div class="main_feed tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+               
+                
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                
+               
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+             
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feed_item posts"></div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
