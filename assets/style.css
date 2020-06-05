@@ -83,6 +83,7 @@ html {
     display: flex;
 }
 .story_item {
+    cursor: pointer;
     margin-right: 15px;
     margin-bottom: 50px;
     margin-top: 30px;
@@ -116,7 +117,8 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.feed_item {
+.wall_item {
+    cursor: pointer;
     min-height: 300px;
     margin-bottom: 28px;
     overflow: hidden;
