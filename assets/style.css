@@ -123,3 +123,20 @@ html {
     margin-bottom: 28px;
     overflow: hidden;
 }
+.direct {
+    position: relative;
+}
+.number{
+    position: absolute;
+    top: 1px;
+    left: 21px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DC565B;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+}
